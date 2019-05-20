@@ -1,0 +1,7 @@
+name = Quiz API
+description = API to get quiz data.
+
+version = "7.x-1.0"
+core = "7.x"
+package = "Quiz"
+project = "quiz_api"

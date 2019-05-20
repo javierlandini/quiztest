@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Module file for Quiz API.
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function quiz_api_menu() {
+  $items = array();
+
+  // Configuration form.
+  $items['api/quiz'] = array(
+    'title' => 'Quiz API data',
+    'description' => 'Returns data for a given quiz.',
+    'page callback' => 'quiz_api_data',
+    'access arguments' => array('access content'),
+    'file' => 'includes/quiz_api.pages.inc',
+  );
+
+  return $items;
+}
