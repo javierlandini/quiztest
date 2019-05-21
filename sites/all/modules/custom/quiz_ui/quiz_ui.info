@@ -1,0 +1,10 @@
+name = Quiz UI
+description = Allows to embed a Quiz in any page or block in the site.
+
+version = "7.x-1.0"
+core = "7.x"
+package = "Quiz"
+project = "quiz_ui"
+
+scripts[] = js/quiz_ui_library.js
+scripts[] = js/quiz_ui.js
